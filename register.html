@@ -1,0 +1,134 @@
+<html>
+<head>
+<script language="javascript">
+function check()
+{
+var a,b,c,d,e,f,g,h;
+a=frm.nm1.value;
+b=frm.nm2.value;
+c=frm.nm3.value;
+d=frm.nm4.value;
+e=frm.nm5.value;
+f=frm.nm6.value;
+g=frm.nm7.value;
+h=frm.nm8.value;
+if(a==" "||b==" "||c==" "||d==" "||e==" "||f==" "||g==" "||h=="")
+{
+alert("Not field can be blank");
+return false;
+}
+if(b!=c)
+{
+alert("Password can't be matched");
+return false;
+}
+if( b.length<6||c.lenght<6 )
+{
+ alert("Invalid Password Length");
+ return false;
+}  
+if(e.length<=10)
+{
+ alert("Invalid Password Length");
+ return false;
+}
+else
+{
+alert("Correct information");
+return true;
+}
+}   
+ 
+</script>
+<style type="text/css">
+a:link{color:black;}
+a:visited{color:black;}
+a:hover{color:black;}
+a:active{color:red;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+</style>
+</head>
+<body>
+<table bgcolor="lightgreen" width=1500>
+<tr>
+<td width=150><img src="logo1.png" height=150 width=150><br><center><b>Established-1949</b></center></td>
+<td  width=1150>
+<center><font text="elephant" color="darkblue" size="+12"><b>Ranchi Women's College</b></font><br>
+<font text="elephant" color="darkred" size="+1"><b>A Constituent College of Ranchi University,Ranchi</b></font></center></td>
+</td>
+<td>Helpline no:-0651-<img src="logo2.jpg" height=100 width=120><br>Undertaking by</td>
+</tr>
+</table>
+<marquee bgcolor=darkblue width=1500><font face="cooper" size="+4" color="white"><b> For any clarification please contact: 0651-2562221(Time:between 10 AM to 5 PM)</b></font></marquee>
+<table width=1500>
+<tr>
+<td width=250 bgcolor="pink"><a href="newcollegewebsite.html"><b>Home</b></a></td>
+<td width=250 bgcolor="yellow"><a href="The College.html"><b>The College</b></a></td>
+<td width=250 bgcolor="red"><a href="ac.html"><b>Academic</b></a></td>
+<td width=250 bgcolor="orange"><a href="iqac.html"><b>IQAC</b></a></td>
+<td width=250 bgcolor="lightblue"><a href="Contact.html"><b>contact us</b></a></td>
+<td width=250 bgcolor="brown"><a href="exam.html"><b>Examination Section</b></a></td>
+<td width=200 bgcolor="lightgrey"><a href="Alumnae.html"><b>Alumnae</b></a></td>
+</tr>
+</table>
+<br>
+
+
+
+
+<table width=1500 bgcolor=blue height=100>
+<tr>
+<td></td>
+</tr>
+</table>
+
+<table width=1500 height=50 bgcolor=blue>
+<tr>
+<td><center><font text="elephant" size="+2" color="white"><b><h1>Registration Page</h1></b></font></center></td><td></td></tr>
+</table>
+<br>
+<br>
+<center><font text="elephant" size="+5" color="black" ><u><b>Registeration</u></b></font>
+<table bgcolor="lightblue">
+<form name=frm>
+<tr><td><h1>Enter Name</h1></td><td><input type="text" name="nm1" size=20></td></tr><br>
+<tr><td><h1>Password</h1></td><td><input type="password" name="nm2" size=20></td></tr><br>
+<tr><td><h1>Re-password</h1></td><td><input type="password" name="nm3" size=20></td></tr><br>
+<tr><td><h1>Date Of Birth</h1></td><td><input type="Date" name="nm4" size=20></td></tr><br>
+<tr><td><h1>Phone Number</h1> </td><td><input type="number" name="nm5" size=20></td></tr><br>
+<tr><td><h1>Email Id</h1></td><td><input type="Email" name="nm6" size=20></td></tr><br>
+<tr><td><h1>Upload Biodata</h1></td><td><input type="file" name="nm7" size=20></td></tr><br>
+<tr><td><h1>About Yourself</h1></td><td><textarea rows=5 cols=10 name="nm8" size=20></textarea></td></tr><br>
+<tr><td><h1>Country</h1></td><td><select name=xyz>
+<option>India</option>
+<option>Indonesia</option>
+<option>Rassia</option>
+<option>China</option>
+<option>Sri Lanka</option>
+<option>Thailand</option>
+<option>Pakistan</option>
+<option>Dubai</option>
+</select></td></tr>
+<br>
+<tr><td><h1>Gender</h1></td><td><input type="radio" name="rd1" >Male
+<input type="radio" name="rd2" value="female">Female</td></tr>
+<tr><td><input type="Submit" value="SUBMIT" onclick="check();"></td></tr>
+</form>
+</table>
+<br>
+<a href="login.html"><font  size="+2" color="black" ><b>LOGIN?</b></font></a>
+</center>
+<br>
+<br>
+<table bgcolor=blue width=1500 height=100 >
+<tr>
+<td></td><td></td></table>
+<table  bgcolor=blue width=1500 height=100 >
+<tr><td><font text="elephant" color=white><b>Website Design and Managed by:System Administrator,Ranchi Women's College</b></font>
+</td>
+<td><font text="elephant" color=white><b>Copyright@2007,Ranchi Women's College,Ranchi.Jharkhand.</b></font>
+</td></tr>
+</table>
+</body>
+<html>
